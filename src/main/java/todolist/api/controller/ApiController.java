@@ -11,7 +11,6 @@ import java.util.List;
 @RestController
 @RequestMapping(path = "/tasks")
 public class ApiController {
-
     private List<String> tasks = new ArrayList<>();
     private final ObjectMapper objectMapper;
 
